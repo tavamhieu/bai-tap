@@ -9,9 +9,9 @@ public class slide35 {
         
        Scanner sc = new Scanner(System.in); {
         System.out.println("nhap so a:");
-          int a = scanner.nextInt();
+          int a = sc.nextInt();
          System.out.println("nhap so b:")
-          int b = scanner.nextInt();
+          int b = sc.nextInt();
          if(a<b){
             System.out.println("so a be hon b:");
 
