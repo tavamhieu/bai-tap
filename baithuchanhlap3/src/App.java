@@ -3,13 +3,22 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) throws Exception {
-        
-     hinhtron ht = new hinhtron();
-        ht.nhapbankinh();
-        ht.tinhchuvi();
-        ht.tinhdientich();
+      hinhtru ht = new hinhtru();
+      ht.nhapthanhphan();
+      ht.tinhcv();
+
+      ht.tinhttt();
+      ht.incv();
+      ht.inttt();
+      hinhchunhat hcn = new hinhtrunhat();
+      hcn.nhapchisohinh();
+      hcn.tinhcv();
+      hcn.tinhdientich();
+      hcn.inchuvihinh();
+      hcn.indientich();
+
 
 
 
 }
-}
+} 
