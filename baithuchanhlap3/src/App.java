@@ -10,7 +10,7 @@ public class App {
       ht.tinhttt();
       ht.incv();
       ht.inttt();
-      hinhchunhat hcn = new hinhtrunhat();
+      hinhchunhat hcn = new hinhchunhat();
       hcn.nhapchisohinh();
       hcn.tinhcv();
       hcn.tinhdientich();
