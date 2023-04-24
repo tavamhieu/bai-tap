@@ -12,6 +12,7 @@ public class hinhchunhat {
         d = sc.nextFloat();
         System.out.println("chieu rong la:");
         r = sc.nextFloat();
+        
     
 
     }
