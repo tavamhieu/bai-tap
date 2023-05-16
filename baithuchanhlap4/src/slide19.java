@@ -14,3 +14,4 @@ public class Slide19 {
             System.out.print(listIterator.next() + "\t");
         }
 }
+}
