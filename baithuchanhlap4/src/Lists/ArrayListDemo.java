@@ -7,7 +7,7 @@ public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayList<Student> stdlist= new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        Students std = new Students();
+        Student std = new Student();
 
         System.out.print("Nhap vao so hoc sinh: ");
         int n = sc.nextInt();

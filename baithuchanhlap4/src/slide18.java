@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class SIlide18 {
+public class slide18 {
     public static void main(String[] args) {
         ArrayList<Float>arrListFloat = new ArrayList<>();
         arrListFloat.add(0.7f);

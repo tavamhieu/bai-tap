@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Slide21 {
+public class slide21 {
     public static void main(String[]args) {
         ArrayList<String> colors = new ArrayList<>(3);
         colors.add("Red");

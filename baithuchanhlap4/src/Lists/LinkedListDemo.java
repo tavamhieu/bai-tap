@@ -10,6 +10,16 @@ public class LinkedListDemo {
             std.nhapthongtin();
             stdlist.add(std);
         }
+        Scanner sc = new Scanner(System.in);
+        Students std = new Students();
+
+        System.out.print("Nhap vao so hoc sinh: ");
+        int n = sc.nextInt();
+
+        std.nhapthongtin(stdLists, n);
+        std.HienThi(stdLists);
+        std.SuaThongTin(stdLists);
+        std.XoaThongTin(stdLists);
         
     }
     

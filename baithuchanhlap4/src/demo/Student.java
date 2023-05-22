@@ -1,8 +1,9 @@
 package demo;
 
+import java.util.Scanner;
 
 public class Student {
-    public Srting fullname;
+    public String fullname;
     public int old;
     public void nhapthongtin(){
         Scanner sc = new Scanner(System.in);
@@ -23,7 +24,7 @@ public class Student {
         public void SuaThongTin(List<Students> stdList) {
             System.out.println("Nhap stt muon chinh sua");
             int stt = sc.nextInt();
-            Students std = new Students();
+            Student std = new Student();
             for (int i = 0; i < stdList.size(); i++) {
                 if (i + 1 == stt) {
                     std.NhapThongTin();
@@ -42,8 +43,8 @@ public class Student {
 
 
 
-        public void themthongtin(ArrayList<Student> stdlist,){
-            For(int i=0 ; i<10; i ++){
+        public void themthongtin(ArrayList<Student> stdlist){
+            For(int i=0 ; i<n; i ++){
             Student std= new Student()
             std.nhapthongtin();
             stdlist.add(std);

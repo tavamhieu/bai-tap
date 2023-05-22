@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.ListIterator;
 
-public class Slide19 {
+public class slide19 {
     public static void main(String[] args) {
         ArrayList<Character>arrListChar = new ArrayList<>();
         arrListChar.add('a');

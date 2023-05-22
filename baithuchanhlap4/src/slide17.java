@@ -8,9 +8,10 @@ public class slide17 {
         arrayListInteger.add(1);
         arrayListInteger.add(9);
         System.out.println("Cac phan tu co trong arrListInteger la: ");
-        for(int number: arrListInteger){
+        for(int number: arrayListInteger){
             System.out.print(number + "\t");
 
     }
-    
+  
+}
 }
